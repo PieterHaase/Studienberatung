@@ -9,6 +9,10 @@ public class Studienberatung {
 		
 		System.out.println("Hast du Abitur?");
 		input = scan.nextLine();
+		if(input.equalsIgnoreCase("j")){
+			System.out.println("Bist du wissbegierig?");
+			input = scan.nextLine();
+		}
 	}
 	
 	public static void main (String args[]){
