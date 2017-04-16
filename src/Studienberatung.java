@@ -9,6 +9,10 @@ public class Studienberatung {
 		
 		System.out.println("Hast du Abitur?");
 		input = scan.nextLine();
+		if(input.equalsIgnoreCase("n")){
+			System.out.println("Hast du Fachbitur?");
+			input = scan.nextLine();	
+		}
 	}
 	
 	public static void main (String args[]){
