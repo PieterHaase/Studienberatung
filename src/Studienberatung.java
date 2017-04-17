@@ -13,6 +13,10 @@ public class Studienberatung {
 		if(input.equalsIgnoreCase("n")){
 			System.out.println("Hast du Fachbitur?");
 			input = scan.nextLine();
+			if(input.equalsIgnoreCase("j")){
+				System.out.println("Hast du eine Berufsausbildung?");
+				input = scan.nextLine();
+			}
 		}
 
 		if(input.equalsIgnoreCase("j")){
